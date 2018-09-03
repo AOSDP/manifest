@@ -8,6 +8,7 @@
            fetch="https://github.com/AOSDP"
            revision="refs/heads/8.1" />
 
+  <!-- AOSDP -->
   <project path="manifest" name="manifest" remote="aosdp" />
   <project path="build/make" name="android_build" remote="aosdp" />
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -21,7 +22,7 @@
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="aosdp" />
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  <project>
+  </project>
 
   <project path="art" name="art" groups="pdk" remote="aosdp" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="aosdp" />
