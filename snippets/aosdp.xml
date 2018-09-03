@@ -32,7 +32,7 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="aosdp" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="aosdp" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="aosdp" />
-  <project path="hardware/aosdp/interfaces" name="android_hardware_aosdp_interfaces" remote="aosdp" >
+  <project path="hardware/aosdp/interfaces" name="android_hardware_aosdp_interfaces" remote="aosdp" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="aosdp" />
       <copyfile dest="hardware/aosdp/Android.bp" src="Android.bp"/>
   </project>
