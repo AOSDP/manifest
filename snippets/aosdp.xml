@@ -72,4 +72,5 @@
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="aosdp" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="aosdp" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="aosdp" />
-</manifest> 
+    
+</manifest>
