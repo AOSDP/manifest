@@ -8,5 +8,7 @@ To initialize your local repository, use this command:
  Then to sync up:
 
 ```bash
-    repo sync  --force-sync --no-tags --no-clone-bundle
+ repo sync  --force-sync --no-tags --no-clone-bundle
 ```
+
+__Our website: https://aosdp.com/__
