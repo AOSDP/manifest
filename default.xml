@@ -675,8 +675,5 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
   <!-- AOSDP manifest -->
   <include name="snippets/aosdp.xml" />
-
-  <!-- AOSDP CAF & Lineage manifest -->
-  <include name="snippets/los.xml" />
 </manifest>
 
