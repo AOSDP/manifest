@@ -6,7 +6,7 @@
   
   <remote  name="aosdp"
            fetch="https://github.com/AOSDP"
-           revision="refs/heads/Pancake" />
+           revision="refs/heads/Oatcake" />
 
   <!-- AOSDP -->
   <project path="manifest" name="manifest" remote="aosdp" />
