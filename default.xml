@@ -712,5 +712,7 @@
   <include name="snippets/remove.xml" />
   <!-- Track AOSDP repos -->
   <include name="snippets/aosdp.xml" />
+  <!-- Track LineageOS repos -->
+  <include name="snippets/los.xml" />
 
 </manifest>
