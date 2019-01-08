@@ -25,6 +25,9 @@
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="fi" revision="pie" />
 
+  <!-- System -->
+  <project path="system/qcom" name="android_system_qcom" remote="fi" revision="pie" />
+
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fi" revision="pie" />
 
