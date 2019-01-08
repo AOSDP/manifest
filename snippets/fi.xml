@@ -19,6 +19,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="fi" revision="pie" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="fi" revision="pie" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="fi" revision="pie" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="fi" revision="pie-caf" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="fi" revision="pie" />
 
   <!-- Prebuilts -->
@@ -26,4 +27,7 @@
 
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fi" revision="pie" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="fi" revision="pie" />
 </manifest>
