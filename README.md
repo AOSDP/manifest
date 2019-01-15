@@ -1,5 +1,6 @@
-AOSDP
-========
+<p align="center">
+    <a href="#"><img src="https://raw.githubusercontent.com/AOSDP/AOSDP-assets/master/logo/PNG/logo-6.png"></a>
+</p>
 
 To initialize your local repository, use this command:
 
