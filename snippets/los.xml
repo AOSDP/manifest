@@ -4,6 +4,9 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="refs/heads/lineage-16.0" />
+
+  <!-- External -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" revision="lineage-16.0" groups="pdk" clone-depth="1" />
 		  
   <!-- Frameworks -->
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-16.0" />
