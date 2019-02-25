@@ -27,6 +27,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="aosdp" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="aosdp" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="aosdp" />
+  <project path="external/hardened_malloc" name="android_external_hardened_malloc" groups="pdk" remote="aosdp" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="aosdp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aosdp" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="aosdp" />
