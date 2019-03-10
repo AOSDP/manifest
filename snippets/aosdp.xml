@@ -42,4 +42,5 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="aosdp" />
   <project path="device/aosdp/sepolicy" name="android_device_aosdp_sepolicy" remote="aosdp" />
   <project path="vendor/aosdp" name="android_vendor_aosdp" remote="aosdp" />
+  <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="aosdp" />
 </manifest> 
