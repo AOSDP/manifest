@@ -7,6 +7,7 @@
 
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="los" revision="lineage-16.0" groups="pdk" clone-depth="1" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" remote="los" revision="lineage-16.0" />
 		  
   <!-- Frameworks -->
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-16.0" />

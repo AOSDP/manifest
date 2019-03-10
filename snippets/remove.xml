@@ -54,6 +54,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/perfetto" /> 
+  <remove-project name="platform/external/proguard" /> 
   <remove-project name="platform/external/selinux" />
 
   <!-- Framework -->
