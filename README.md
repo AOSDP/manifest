@@ -9,7 +9,7 @@ To initialize your local repository, use this command:
  Then to sync up:
 
 ```bash
-repo sync -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+repo sync -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
 Build AOSDP 
