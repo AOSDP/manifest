@@ -8,6 +8,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/kati" />
+  <remove-project name="platform/libcore" />
 
   <!-- Device -->
   <remove-project name="device/common" />
@@ -55,6 +56,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/conscrypt" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/perfetto" /> 
   <remove-project name="platform/external/proguard" /> 
@@ -65,6 +67,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware -->
@@ -96,6 +99,7 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
@@ -107,6 +111,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />
@@ -114,6 +119,7 @@
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
