@@ -28,12 +28,17 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="aosdp" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="aosdp" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="aosdp" />
+  <project path="device/aosdp/sepolicy" name="android_device_aosdp_sepolicy" remote="aosdp" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosdp" />
   <project path="external/conscrypt" name="android_external_conscrypt" groups="pdk" remote="aosdp" />
   <project path="external/hardened_malloc" name="android_external_hardened_malloc" groups="pdk" remote="aosdp" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="aosdp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aosdp" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="aosdp" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="aosdp" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="aosdp" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="aosdp" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="aosdp" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="aosdp" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosdp" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="aosdp" />
@@ -51,10 +56,11 @@
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="aosdp" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aosdp" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosdp" />
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="aosdp" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="aosdp"  />
   <project path="system/core" name="android_system_core" groups="pdk" remote="aosdp" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="aosdp" />
-  <project path="device/aosdp/sepolicy" name="android_device_aosdp_sepolicy" remote="aosdp" />
   <project path="vendor/aosdp" name="android_vendor_aosdp" remote="aosdp" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="aosdp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="aosdp" />
 </manifest>

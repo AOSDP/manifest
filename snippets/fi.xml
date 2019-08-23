@@ -11,26 +11,12 @@
   <project path="external/selinux" name="android_external_selinux" remote="fi" revision="pie" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="fi" revision="pie" />
 
-  <!-- Frameworks -->
-  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="fi" revision="pie" />
-
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="fi" revision="pie" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="fi" revision="pie" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="fi" revision="pie" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="fi" revision="pie" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="fi" revision="pie-caf" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="fi" revision="pie" />
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="fi" revision="pie" />
-
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="fi" revision="pie" />
-
-  <!-- Sepolicy -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="fi" revision="pie" />
-
-  <!-- Vendor -->
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="fi" revision="pie" />
 </manifest>
