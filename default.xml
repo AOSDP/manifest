@@ -726,7 +726,5 @@
   <include name="snippets/aosdp.xml" />
   <!-- Track LineageOS repos -->
   <include name="snippets/los.xml" />
-  <!-- Track FirangiOS repos -->
-  <include name="snippets/fi.xml" />
 
 </manifest>
