@@ -31,6 +31,7 @@
   <project path="device/aosdp/sepolicy" name="android_device_aosdp_sepolicy" remote="aosdp" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosdp" />
   <project path="external/conscrypt" name="android_external_conscrypt" groups="pdk" remote="aosdp" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="aosdp" />
   <project path="external/hardened_malloc" name="android_external_hardened_malloc" groups="pdk" remote="aosdp" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="aosdp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aosdp" />
@@ -60,6 +61,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="aosdp"  />
   <project path="system/core" name="android_system_core" groups="pdk" remote="aosdp" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="aosdp" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="aosdp" />
   <project path="vendor/aosdp" name="android_vendor_aosdp" remote="aosdp" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="aosdp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="aosdp" />
