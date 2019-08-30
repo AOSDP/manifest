@@ -30,9 +30,11 @@
   <project path="development" name="android_development" remote="aosdp" />
   <project path="device/aosdp/sepolicy" name="android_device_aosdp_sepolicy" remote="aosdp" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aosdp" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="aosdp" />
   <project path="external/conscrypt" name="android_external_conscrypt" remote="aosdp" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="aosdp" />
   <project path="external/hardened_malloc" name="android_external_hardened_malloc" groups="pdk" remote="aosdp" />
+  <project path="external/skia" name="android_external_skia" remote="aosdp" />
   <project path="frameworks/av" name="android_frameworks_av" remote="aosdp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aosdp" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="aosdp" />
